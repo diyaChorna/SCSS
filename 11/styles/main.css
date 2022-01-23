@@ -1,0 +1,108 @@
+*, *::before, *::after {
+      margin: 0;
+      padding: 0;
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+}
+header {
+      background-color: #e75e02;
+      height: 200px;
+}
+    
+footer {
+      background-color: #e75e02;
+      height: 400px;
+}
+.all{
+      background-color: #009ece;
+      height: 368px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+}
+.box {
+      height: 100%;
+      width: 8%;
+      border: 1px solid #000;
+      overflow: hidden;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      color: rgba(0, 0, 255, 0);
+      font-size: 0;
+}
+.box img{
+      width: 60px;
+      height: 60px;
+}
+.box .small1, .box .small2, .box .small3, .box .small4, .box .small5, .box .small6, .box .small7{
+      height: 100%;
+      width: 100%;
+      background-color: #1ed0fc;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+}
+.box:hover .k{
+      height: 100%;
+      width: 75%;
+      background-color: white;
+}
+.box:hover .text1{
+      height: 50%;
+      width: 100%;
+      font-size: 60px;
+      color: black;
+      padding-top: 110px;
+      padding-left: 5%;
+}
+.box:hover .text2{
+      height: 50%;
+      width: 100%;
+      font-size: 20px;
+      color: black;
+      padding-top: 10px;
+      padding-left: 5%;
+}
+.box:hover{
+      width: 32%;
+      background-color: purple;       
+}
+.box:hover .small1, .box:hover .small2, .box:hover .small3, .box:hover .small4, .box:hover .small5, .box:hover .small6, .box:hover .small7{
+      width: 25%;
+}
+.box:hover .small1{
+      background-image: -webkit-gradient(linear, left top, left bottom, from(#40b6fa), to(#235fce));
+      background-image: linear-gradient(to bottom, #40b6fa, #235fce);
+}
+.box:hover .small2{
+      background-image: -webkit-gradient(linear, left top, left bottom, from(#2c2ff7), to(#07059b));
+      background-image: linear-gradient(to bottom, #2c2ff7, #07059b);
+}
+.box:hover .small3{
+      background-image: -webkit-gradient(linear, left top, left bottom, from(#2cadf7), to(#057091));
+      background-image: linear-gradient(to bottom, #2cadf7, #057091);
+}
+.box:hover .small4{
+      background-image: -webkit-gradient(linear, left top, left bottom, from(#0dbb0d), to(#078507));
+      background-image: linear-gradient(to bottom, #0dbb0d, #078507);
+}
+.box:hover .small5{
+      background-image: -webkit-gradient(linear, left top, left bottom, from(#ca0000), to(#9e0303));
+      background-image: linear-gradient(to bottom, #ca0000, #9e0303);
+}
+.box:hover .small6{
+      background-image: -webkit-gradient(linear, left top, left bottom, from(#1d0280), to(#4f3baa));
+      background-image: linear-gradient(to bottom, #1d0280, #4f3baa);
+}
+.box:hover .small7{
+      background-image: -webkit-gradient(linear, left top, left bottom, from(#df034c), to(#f34fa9));
+      background-image: linear-gradient(to bottom, #df034c, #f34fa9);
+}
+/*# sourceMappingURL=main.css.map */

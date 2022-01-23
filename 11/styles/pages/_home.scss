@@ -1,0 +1,75 @@
+.all{
+      background-color: var(--secondColor);
+      height: 368px;
+      display: flex;
+}
+.box{
+      height: 100%;
+      width: 8%;
+      display: flex;
+      border: 1px solid #000;
+      overflow: hidden;
+      color: rgba(0, 0, 0, 0);
+      font-size: 0;
+      .small1, .small2, .small3, .small4, .small5, .small6, .small7{
+            height: 100%;
+            width: 100%;
+            background-color: var(--thirdColor);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+      }
+}
+.box img{
+      width: 60px;
+      height: 60px;
+}
+.box:hover .k{
+      height: 100%;
+      width: 75%;
+      background-color: white;
+}
+.box:hover .text1{
+      height: 50%;
+      width: 100%;
+      font-size: 60px;
+      color: black;
+      padding-top: 110px;
+      padding-left: 5%;
+}
+.box:hover .text2{
+      height: 50%;
+      width: 100%;
+      font-size: 20px;
+      color: black;
+      padding-top: 10px;
+      padding-left: 5%;
+}
+.box:hover{
+      width: 32%;
+      background-color: purple;       
+}
+.box:hover .small1, .box:hover .small2, .box:hover .small3, .box:hover .small4, .box:hover .small5, .box:hover .small6, .box:hover .small7{
+      width: 25%;
+}
+.box:hover .small1{
+      background-image: linear-gradient(to bottom, rgb(64, 182, 250), rgb(35, 95, 206));
+}
+.box:hover .small2{
+      background-image: linear-gradient(to bottom, rgb(44, 47, 247), rgb(7, 5, 155));
+}
+.box:hover .small3{
+      background-image: linear-gradient(to bottom, rgb(44, 173, 247), rgb(5, 112, 145));
+}
+.box:hover .small4{
+      background-image: linear-gradient(to bottom, rgb(13, 187, 13), rgb(7, 133, 7));
+}
+.box:hover .small5{
+      background-image: linear-gradient(to bottom, rgb(202, 0, 0), rgb(158, 3, 3));
+}
+.box:hover .small6{
+      background-image: linear-gradient(to bottom, rgb(29, 2, 128), rgb(79, 59, 170));
+}
+.box:hover .small7{
+      background-image: linear-gradient(to bottom, rgb(223, 3, 76), rgb(243, 79, 169));
+}
